@@ -1,0 +1,209 @@
+{
+  "zone_test": {
+    "largeur": 2560,
+    "hauteur": 1440,
+    "fond_couleur": "#2d5a3d",
+    "fond_image": "fond_zone_test",
+    "texture_obstacle": "obstacle_placeholder",
+    "theme": "conjugaison",
+    "difficulte_max": 2,
+    "spawn_defaut": { "x": 640, "y": 360 },
+    "points_sauvegarde": [
+      { "x": 500, "y": 500 }
+    ],
+    "obstacles": [
+      { "x": 900, "y": 400 },
+      { "x": 200, "y": 300 },
+      { "x": 400, "y": 700 },
+      { "x": 1600, "y": 900 }
+    ],
+    "sorties": [
+      {
+        "vers": "zone_foret",
+        "declencheur": { "x": 2560, "y": 720, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 60, "y": 400 }
+      },
+      {
+        "vers": "zone_village",
+        "declencheur": { "x": 0, "y": 720, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 1540, "y": 380 }
+      }
+    ]
+  },
+
+  "zone_foret": {
+    "largeur": 1920,
+    "hauteur": 1080,
+    "fond_couleur": "#1a3d1a",
+    "fond_image": "fond_zone_foret",
+    "texture_obstacle": "obstacle_foret",
+    "theme": "vocabulaire",
+    "difficulte_max": 2,
+    "spawn_defaut": { "x": 960, "y": 540 },
+    "obstacles": [
+      { "x": 500, "y": 500 },
+      { "x": 600, "y": 600 },
+      { "x": 700, "y": 700 }
+    ],
+    "sorties": [
+      {
+        "vers": "zone_test",
+        "declencheur": { "x": 0, "y": 400, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 2500, "y": 720 }
+      },
+      {
+        "vers": "zone_montagne",
+        "declencheur": { "x": 1920, "y": 400, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 60, "y": 500 }
+      }
+    ]
+  },
+
+  "zone_village": {
+    "largeur": 1600,
+    "hauteur": 900,
+    "fond_couleur": "#5a5037",
+    "fond_image": "fond_zone_village",
+    "texture_obstacle": "obstacle_village",
+    "theme": "conjugaison",
+    "difficulte_max": 1,
+    "spawn_defaut": { "x": 900, "y": 450 },
+    "points_sauvegarde": [
+      { "x": 800, "y": 200 }
+    ],
+    "obstacles": [
+      { "x": 400, "y": 300 },
+      { "x": 1100, "y": 350 },
+      { "x": 700, "y": 650 }
+    ],
+    "sorties": [
+      {
+        "vers": "zone_test",
+        "declencheur": { "x": 1600, "y": 380, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 60, "y": 720 }
+      }
+    ]
+  },
+
+  "zone_montagne": {
+    "largeur": 2200,
+    "hauteur": 1200,
+    "fond_couleur": "#464650",
+    "fond_image": "fond_zone_montagne",
+    "texture_obstacle": "obstacle_montagne",
+    "theme": "orthographe",
+    "monstre_id": "m003",
+    "difficulte_max": 3,
+    "spawn_defaut": { "x": 1100, "y": 600 },
+    "points_sauvegarde": [
+      { "x": 1900, "y": 900 }
+    ],
+    "obstacles": [
+      { "x": 500, "y": 400 },
+      { "x": 900, "y": 800 },
+      { "x": 1400, "y": 300 },
+      { "x": 1800, "y": 600 },
+      { "x": 700, "y": 1000 }
+    ],
+    "sorties": [
+      {
+        "vers": "zone_foret",
+        "declencheur": { "x": 0, "y": 500, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 1860, "y": 400 }
+      },
+      {
+        "vers": "zone_donjon_1",
+        "declencheur": { "x": 2200, "y": 500, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 60, "y": 350 }
+      }
+    ]
+  },
+  "zone_donjon_1": {
+    "largeur": 1400,
+    "hauteur": 800,
+    "fond_couleur": "#2d2a37",
+    "fond_image": "fond_donjon_1",
+    "texture_obstacle": "obstacle_donjon",
+    "theme": "orthographe",
+    "monstre_id": "m004",
+    "difficulte_max": 2,
+    "spawn_defaut": { "x": 100, "y": 400 },
+    "points_sauvegarde": [
+      { "x": 200, "y": 200 }
+    ],
+    "obstacles": [
+      { "x": 500, "y": 200 },
+      { "x": 500, "y": 600 },
+      { "x": 900, "y": 400 }
+    ],
+    "sorties": [
+      {
+        "vers": "zone_montagne",
+        "declencheur": { "x": 0, "y": 350, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 2140, "y": 500 }
+      },
+      {
+        "vers": "zone_donjon_2",
+        "declencheur": { "x": 1400, "y": 350, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 60, "y": 350 }
+      }
+    ]
+  },
+
+  "zone_donjon_2": {
+    "largeur": 1400,
+    "hauteur": 800,
+    "fond_couleur": "#26232f",
+    "fond_image": "fond_donjon_2",
+    "texture_obstacle": "obstacle_donjon",
+    "theme": "orthographe",
+    "monstre_id": "m004",
+    "difficulte_max": 3,
+    "spawn_defaut": { "x": 100, "y": 400 },
+    "obstacles": [
+      { "x": 400, "y": 250 },
+      { "x": 700, "y": 550 },
+      { "x": 1000, "y": 250 },
+      { "x": 1000, "y": 550 }
+    ],
+    "sorties": [
+      {
+        "vers": "zone_donjon_1",
+        "declencheur": { "x": 0, "y": 350, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 1360, "y": 350 }
+      },
+      {
+        "vers": "zone_donjon_3",
+        "declencheur": { "x": 1400, "y": 350, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 60, "y": 350 }
+      }
+    ]
+  },
+
+  "zone_donjon_3": {
+    "largeur": 1400,
+    "hauteur": 800,
+    "fond_couleur": "#1e1c28",
+    "fond_image": "fond_donjon_3",
+    "texture_obstacle": "obstacle_donjon",
+    "theme": "orthographe",
+    "monstre_id": "m004",
+    "difficulte_max": 3,
+    "spawn_defaut": { "x": 100, "y": 400 },
+    "points_sauvegarde": [
+      { "x": 200, "y": 600 }
+    ],
+    "obstacles": [
+      { "x": 500, "y": 300 },
+      { "x": 500, "y": 500 },
+      { "x": 900, "y": 400 }
+    ],
+    "sorties": [
+      {
+        "vers": "zone_donjon_2",
+        "declencheur": { "x": 0, "y": 350, "largeur": 60, "hauteur": 200 },
+        "spawn_arrivee": { "x": 1360, "y": 350 }
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "monstres": [
+    {
+      "id": "m001",
+      "nom": "Fôtogre",
+      "sprite": "monstre_fotogre",
+      "hp_max": 5,
+      "theme_associe": "conjugaison",
+      "xp_gain": 10,
+      "loot_table": [
+        { "item_id": "piece_or", "chance": 0.8, "quantite_min": 1, "quantite_max": 3 },
+        { "item_id": "potion_mineure", "chance": 0.3, "quantite_min": 1, "quantite_max": 1 }
+      ]
+    },
+    {
+      "id": "m002",
+      "nom": "Vocabulon",
+      "sprite": "monstre_vocabulon",
+      "hp_max": 5,
+      "theme_associe": "vocabulaire",
+      "xp_gain": 10,
+      "loot_table": [
+        { "item_id": "piece_or", "chance": 0.8, "quantite_min": 1, "quantite_max": 3 },
+        { "item_id": "plume_ancienne", "chance": 0.1, "quantite_min": 1, "quantite_max": 1 }
+      ]
+    },
+    {
+      "id": "m003",
+      "nom": "Orthograffiti",
+      "sprite": "monstre_orthograffiti",
+      "hp_max": 7,
+      "theme_associe": "orthographe",
+      "xp_gain": 18,
+      "loot_table": [
+        { "item_id": "piece_or", "chance": 0.7, "quantite_min": 2, "quantite_max": 4 },
+        { "item_id": "elixir_savoir", "chance": 0.25, "quantite_min": 1, "quantite_max": 1 },
+        { "item_id": "gemme_ancienne", "chance": 0.15, "quantite_min": 1, "quantite_max": 1 }
+      ]
+    },
+    {
+      "id": "m004",
+      "nom": "Gardien Cryptique",
+      "sprite": "monstre_gardien",
+      "hp_max": 10,
+      "theme_associe": "orthographe",
+      "xp_gain": 30,
+      "loot_table": [
+        { "item_id": "piece_or", "chance": 0.7, "quantite_min": 3, "quantite_max": 6 },
+        { "item_id": "elixir_savoir", "chance": 0.3, "quantite_min": 1, "quantite_max": 1 },
+        { "item_id": "gemme_ancienne", "chance": 0.2, "quantite_min": 1, "quantite_max": 2 },
+        [{ "item_id": "cle_donjon", "chance": 0.4, "quantite_min": 1, "quantite_max": 1 }]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "items": [
+    {
+      "id": "potion_mineure",
+      "nom": "Potion mineure",
+      "description": "Restaure 1 PV en combat",
+      "type": "consommable",
+      "sprite": "item_potion",
+      "effet": { "type": "soin", "valeur": 1 }
+    },
+    {
+      "id": "piece_or",
+      "nom": "Pièce d'or",
+      "description": "Monnaie du royaume",
+      "type": "monnaie",
+      "sprite": "item_piece"
+    },
+    {
+      "id": "plume_ancienne",
+      "nom": "Plume ancienne",
+      "description": "Utilisée pour écrire les plus belles phrases",
+      "type": "objet_quete",
+      "sprite": "item_plume"
+    },
+    {
+      "id": "elixir_savoir",
+      "nom": "Élixir du savoir",
+      "description": "Réussit automatiquement la question en cours",
+      "type": "consommable",
+      "sprite": "item_elixir",
+      "effet": { "type": "joker" }
+    },
+    {
+      "id": "gemme_ancienne",
+      "nom": "Gemme ancienne",
+      "description": "Une pierre précieuse trouvée en montagne",
+      "type": "objet_quete",
+      "sprite": "item_gemme"
+    },
+    {
+      "id": "cle_donjon",
+      "nom": "Clé du donjon",
+      "description": "Une clé ancienne, gardée par le Gardien Cryptique",
+      "type": "objet_quete",
+      "sprite": "item_cle_donjon",
+      "unique": true
+    },
+    {
+      "id": "cle_rouillee",
+      "nom": "Clé rouillée",
+      "description": "Une vieille clé, semble ouvrir une porte fermée depuis longtemps",
+      "type": "objet_quete",
+      "sprite": "item_cle_rouillee",
+      "unique": true
+    }
+  ]
+}

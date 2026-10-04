@@ -1,0 +1,64 @@
+{
+  "pnjs": [
+    {
+      "id": "pnj001",
+      "nom": "Madame Grammaire",
+      "sprite": "pnj_madame_grammaire",
+      "zone": "zone_test",
+      "position": { "x": 1200, "y": 300 },
+      "dialogue": [
+        "Bonjour, jeune aventurier !",
+        "Ici, à Zone Test, on affine sa conjugaison en combattant des Fôtogres.",
+        "Reviens me voir quand tu auras progressé !"
+      ]
+    },
+    {
+      "id": "pnj002",
+      "nom": "Vieux Sylvain",
+      "sprite": "pnj_vieux_sylvain",
+      "zone": "zone_foret",
+      "position": { "x": 300, "y": 800 },
+      "dialogue": [
+        "Ah, un visiteur dans ma forêt...",
+        "Les Vocabulons rôdent par ici, ils testeront ton vocabulaire.",
+        "Fais attention à toi !"
+      ]
+    },
+    {
+      "id": "pnj003",
+      "nom": "Marchande Colette",
+      "sprite": "pnj_marchande",
+      "zone": "zone_village",
+      "position": { "x": 900, "y": 600 },
+      "dialogue": [
+        "Bienvenue au village !",
+        "Je collectionne les gemmes anciennes qu'on trouve en montagne.",
+        "Si tu en trouves, je saurai te récompenser."
+      ]
+    },
+    {
+      "id": "pnj004",
+      "nom": "Ermite Théo",
+      "sprite": "pnj_ermite",
+      "zone": "zone_montagne",
+      "position": { "x": 1900, "y": 300 },
+      "dialogue": [
+        "Peu de gens s'aventurent jusqu'ici...",
+        "L'orthographe est un art exigeant, tout comme la montagne.",
+        "Les Orthograffiti gardent bien leurs secrets."
+      ]
+    },
+    {
+      "id": "pnj005",
+      "nom": "Porte scellée",
+      "sprite": "porte_scellee",
+      "zone": "zone_donjon_3",
+      "position": { "x": 1300, "y": 600 },
+      "dialogue": [
+        "Une porte de pierre, scellée par une magie ancienne...",
+        "Un grondement sourd résonne derrière. Quelque chose de puissant attend là.",
+        "Cette porte ne s'ouvrira pas encore. Reviens plus tard, aventurier."
+      ]
+    }
+  ]
+}

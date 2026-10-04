@@ -1,0 +1,108 @@
+{
+  "quetes": [
+    {
+      "id": "quete001",
+      "titre": "Chasse aux Fôtogres",
+      "pnj_id": "pnj001",
+      "objectif": { "type": "vaincre_monstre", "cible": "m001", "quantite": 3 },
+      "dialogue_avant": [
+        "J'ai un service à te demander.",
+        "Les Fôtogres pullulent dans cette zone. Peux-tu en vaincre 3 pour moi ?"
+      ],
+      "dialogue_en_cours": [
+        "Alors, ces Fôtogres ?",
+        "Reviens me voir quand tu en auras vaincu 3."
+      ],
+      "dialogue_recompense": [
+        "Bravo, tu as fait du beau travail !",
+        "Voici ta récompense, bien méritée."
+      ],
+      "dialogue_terminee": [
+        "Merci encore pour ton aide, aventurier."
+      ],
+      "recompense": {
+        "xp": 30,
+        "items": [{ "item_id": "potion_mineure", "quantite": 2 }]
+      }
+    },
+    {
+      "id": "quete002",
+      "titre": "Gemmes pour Colette",
+      "pnj_id": "pnj003",
+      "objectif": { "type": "posseder_item", "cible": "gemme_ancienne", "quantite": 2 },
+      "dialogue_avant": [
+        "Tu sembles aventureux...",
+        "Rapporte-moi 2 gemmes anciennes de la montagne, je te récompenserai bien !"
+      ],
+      "dialogue_en_cours": [
+        "Toujours en quête de gemmes ?",
+        "Il m'en faut 2 au total, prends ton temps."
+      ],
+      "dialogue_recompense": [
+        "Magnifique, exactement ce qu'il me fallait !",
+        "Tiens, voici pour ta peine."
+      ],
+      "dialogue_terminee": [
+        "Ces gemmes sont superbes, merci encore."
+      ],
+      "recompense": {
+        "xp": 40,
+        "items": [{ "item_id": "piece_or", "quantite": 20 }]
+      }
+    },
+    {
+      "id": "quete003",
+      "titre": "Les secrets de l'Ermite",
+      "pnj_id": "pnj004",
+      "objectif": { "type": "vaincre_monstre", "cible": "m003", "quantite": 4 },
+      "dialogue_avant": [
+        "Prouve-moi ta maîtrise de l'orthographe.",
+        "Vaincs 4 Orthograffiti, et je te révélerai un secret."
+      ],
+      "dialogue_en_cours": [
+        "Ta quête continue...",
+        "4 Orthograffiti, pas un de moins."
+      ],
+      "dialogue_recompense": [
+        "Tu as prouvé ta valeur.",
+        "Ce savoir t'appartient désormais."
+      ],
+      "dialogue_terminee": [
+        "Que la montagne te guide, aventurier."
+      ],
+      "recompense": {
+        "xp": 60,
+        "items": [{ "item_id": "elixir_savoir", "quantite": 2 }]
+      }
+    },
+    {
+      "id": "quete004",
+      "titre": "La clé du donjon",
+      "pnj_id": "pnj004",
+      "objectif": { "type": "posseder_item", "cible": "cle_donjon", "quantite": 1 },
+      "consomme_objectif": true,
+      "dialogue_avant": [
+        "Le Gardien Cryptique, au fond du donjon, protège une clé ancienne.",
+        "Rapporte-la moi. Elle ne doit pas rester entre de mauvaises mains.",
+        "Ce qu'elle ouvre... reste à découvrir."
+      ],
+      "dialogue_en_cours": [
+        "As-tu trouvé la clé ?",
+        "Le Gardien Cryptique la porte sur lui, quelque part dans le donjon."
+      ],
+      "dialogue_recompense": [
+        "Tu l'as trouvée... enfin.",
+        "Je vais la garder en sécurité, jusqu'à ce que le moment soit venu.",
+        "Tiens, prends ceci pour ta peine."
+      ],
+      "dialogue_terminee": [
+        "La clé est en sécurité, grâce à toi.",
+        "Reviens me voir quand le donjon s'agitera à nouveau..."
+      ],
+      "recompense": {
+        "xp": 50,
+        "items": [{ "item_id": "gemme_ancienne", "quantite": 1 }]
+      }
+    }
+  ]
+}

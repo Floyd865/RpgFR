@@ -1,0 +1,464 @@
+{
+  "themes": {
+    "conjugaison": {
+      "racines": {
+        "verbes_1er_groupe": [
+          {
+            "id": "q001",
+            "type": "phrase_builder",
+            "difficulte": 1,
+            "mots": ["Je", "mange", "une", "pomme"],
+            "reponse": "Je mange une pomme"
+          },
+          {
+            "id": "q002",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Il ___ (manger) une pomme",
+            "reponse": "mange"
+          },
+          {
+            "id": "q011",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Nous ___ (parler) français",
+            "reponse": "parlons"
+          },
+          {
+            "id": "q012",
+            "type": "phrase_builder",
+            "difficulte": 2,
+            "mots": ["Elles", "écoutent", "de", "la", "musique"],
+            "reponse": "Elles écoutent de la musique"
+          },
+          {
+            "id": "q013",
+            "type": "fill_blank",
+            "difficulte": 3,
+            "phrase": "Vous ___ (regarder) un film hier soir",
+            "reponse": "avez regardé"
+          }
+        ],
+        "verbes_2eme_groupe": [
+          {
+            "id": "q014",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Tu ___ (finir) tes devoirs",
+            "reponse": "finis"
+          },
+          {
+            "id": "q015",
+            "type": "phrase_builder",
+            "difficulte": 2,
+            "mots": ["Nous", "choisissons", "un", "cadeau"],
+            "reponse": "Nous choisissons un cadeau"
+          },
+          {
+            "id": "q016",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Ils ___ (grandir) très vite",
+            "reponse": "grandissent"
+          }
+        ],
+        "verbes_irreguliers": [
+          {
+            "id": "q017",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Je ___ (aller) à l'école",
+            "reponse": "vais"
+          },
+          {
+            "id": "q018",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Elle ___ (être) fatiguée",
+            "reponse": "est"
+          },
+          {
+            "id": "q019",
+            "type": "phrase_builder",
+            "difficulte": 3,
+            "mots": ["Nous", "avons", "pris", "le", "train"],
+            "reponse": "Nous avons pris le train"
+          },
+          {
+            "id": "q020",
+            "type": "fill_blank",
+            "difficulte": 3,
+            "phrase": "Ils ___ (venir) hier soir",
+            "reponse": "sont venus"
+          },
+          {
+            "id": "q029",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Quelle est la bonne conjugaison de 'être' à la 1ère personne du singulier ?",
+            "options": ["suis", "es", "est", "sommes"],
+            "reponse": "suis"
+          }
+        ]
+      }
+    },
+    "vocabulaire": {
+      "racines": {
+        "animaux": [
+          {
+            "id": "q004",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Le ___ (dog) est un animal domestique.",
+            "reponse": "chien"
+          },
+          {
+            "id": "q010",
+            "type": "theme_sort",
+            "difficulte": 2,
+            "question": "Classe ces mots dans la bonne catégorie",
+            "categories": ["Animaux domestiques", "Animaux sauvages"],
+            "mots_a_classer": [
+              { "mot": "chat", "categorie": "Animaux domestiques" },
+              { "mot": "lion", "categorie": "Animaux sauvages" },
+              { "mot": "chien", "categorie": "Animaux domestiques" },
+              { "mot": "loup", "categorie": "Animaux sauvages" }
+            ]
+          },
+          {
+            "id": "q021",
+            "type": "theme_sort",
+            "difficulte": 1,
+            "question": "Classe ces animaux selon leur habitat",
+            "categories": ["Vit sur terre", "Vit dans l'eau"],
+            "mots_a_classer": [
+              { "mot": "poisson", "categorie": "Vit dans l'eau" },
+              { "mot": "cheval", "categorie": "Vit sur terre" },
+              { "mot": "dauphin", "categorie": "Vit dans l'eau" },
+              { "mot": "lapin", "categorie": "Vit sur terre" }
+            ]
+          },
+          {
+            "id": "q022",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "L'___ (bird) vole dans le ciel.",
+            "reponse": "oiseau"
+          },
+          {
+            "id": "q028",
+            "type": "multiple_choice",
+            "difficulte": 1,
+            "question": "Quel est le mot pour 'cat' en français ?",
+            "options": ["chien", "chat", "oiseau", "poisson"],
+            "reponse": "chat"
+          }
+        ],
+        "nourriture": [
+          {
+            "id": "q023",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Le ___ (bread) se mange au petit-déjeuner.",
+            "reponse": "pain"
+          },
+          {
+            "id": "q024",
+            "type": "theme_sort",
+            "difficulte": 2,
+            "question": "Classe ces aliments par catégorie",
+            "categories": ["Fruit", "Légume"],
+            "mots_a_classer": [
+              { "mot": "pomme", "categorie": "Fruit" },
+              { "mot": "carotte", "categorie": "Légume" },
+              { "mot": "banane", "categorie": "Fruit" },
+              { "mot": "poireau", "categorie": "Légume" }
+            ]
+          },
+          {
+            "id": "q025",
+            "type": "phrase_builder",
+            "difficulte": 2,
+            "mots": ["Elle", "boit", "un", "verre", "d'eau"],
+            "reponse": "Elle boit un verre d'eau"
+          }
+        ],
+        "couleurs": [
+          {
+            "id": "q026",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Le ciel est ___ (blue).",
+            "reponse": "bleu"
+          },
+          {
+            "id": "q027",
+            "type": "theme_sort",
+            "difficulte": 1,
+            "question": "Classe ces couleurs selon leur tonalité",
+            "categories": ["Couleur chaude", "Couleur froide"],
+            "mots_a_classer": [
+              { "mot": "rouge", "categorie": "Couleur chaude" },
+              { "mot": "bleu", "categorie": "Couleur froide" },
+              { "mot": "orange", "categorie": "Couleur chaude" },
+              { "mot": "vert", "categorie": "Couleur froide" }
+            ]
+          }
+        ]
+      }
+    },
+    "orthographe": {
+      "racines": {
+        "homophones": [
+          {
+            "id": "q030",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "___ (ou/où) vas-tu ce soir ?",
+            "reponse": "Où"
+          },
+          {
+            "id": "q031",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Quelle orthographe est correcte : 'Il ___ mangé' ?",
+            "options": ["a", "à"],
+            "reponse": "a"
+          },
+          {
+            "id": "q032",
+            "type": "theme_sort",
+            "difficulte": 3,
+            "question": "Classe ces mots selon leur homophone",
+            "categories": ["Verbe avoir (a)", "Préposition (à)"],
+            "mots_a_classer": [
+              { "mot": "Il a couru", "categorie": "Verbe avoir (a)" },
+              { "mot": "Je vais à Paris", "categorie": "Préposition (à)" },
+              { "mot": "Elle a fini", "categorie": "Verbe avoir (a)" },
+              { "mot": "Direction à droite", "categorie": "Préposition (à)" }
+            ]
+          },
+          {
+            "id": "q038",
+            "type": "multiple_choice",
+            "difficulte": 1,
+            "question": "Quelle est la bonne orthographe : 'Je vais ___ l'école' ?",
+            "options": ["a", "à"],
+            "reponse": "à"
+          },
+          {
+            "id": "q039",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "___ (Ces/Ses) enfants jouent dans le jardin",
+            "reponse": "Ces"
+          },
+          {
+            "id": "q040",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Complète : 'Il a pris ___ affaires' (les siennes)",
+            "options": ["ces", "ses"],
+            "reponse": "ses"
+          },
+          {
+            "id": "q041",
+            "type": "theme_sort",
+            "difficulte": 2,
+            "question": "Classe ces phrases selon l'homophone correct",
+            "categories": ["Ce (déterminant)", "Se (pronom)"],
+            "mots_a_classer": [
+              { "mot": "Ce livre est intéressant", "categorie": "Ce (déterminant)" },
+              { "mot": "Il se lave les mains", "categorie": "Se (pronom)" },
+              { "mot": "Ce chat est noir", "categorie": "Ce (déterminant)" },
+              { "mot": "Elle se demande pourquoi", "categorie": "Se (pronom)" }
+            ]
+          },
+          {
+            "id": "q042",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Je suis fatigué, ___ (mes/mais) je continue",
+            "reponse": "mais"
+          }
+        ],
+        "accords": [
+          {
+            "id": "q033",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Les enfants sont ___ (content) de venir",
+            "reponse": "contents"
+          },
+          {
+            "id": "q034",
+            "type": "phrase_builder",
+            "difficulte": 3,
+            "mots": ["Les", "grandes", "maisons", "blanches"],
+            "reponse": "Les grandes maisons blanches"
+          },
+          {
+            "id": "q035",
+            "type": "multiple_choice",
+            "difficulte": 3,
+            "question": "Quel accord est correct : 'Les fleurs que j'ai ___' ?",
+            "options": ["cueilli", "cueillies", "cueillie", "cueillis"],
+            "reponse": "cueillies"
+          },
+          {
+            "id": "q043",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Les chaises sont ___ (cassé)",
+            "reponse": "cassées"
+          },
+          {
+            "id": "q044",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Quel accord est correct : 'Une fille ___ (joyeux)' ?",
+            "options": ["joyeux", "joyeuse", "joyeuses", "joyeuxe"],
+            "reponse": "joyeuse"
+          },
+          {
+            "id": "q045",
+            "type": "phrase_builder",
+            "difficulte": 3,
+            "mots": ["Les", "petites", "filles", "sont", "arrivées"],
+            "reponse": "Les petites filles sont arrivées"
+          },
+          {
+            "id": "q046",
+            "type": "theme_sort",
+            "difficulte": 3,
+            "question": "Classe ces groupes selon leur accord",
+            "categories": ["Masculin pluriel", "Féminin pluriel"],
+            "mots_a_classer": [
+              { "mot": "les beaux chevaux", "categorie": "Masculin pluriel" },
+              { "mot": "les belles maisons", "categorie": "Féminin pluriel" },
+              { "mot": "les grands arbres", "categorie": "Masculin pluriel" },
+              { "mot": "les hautes tours", "categorie": "Féminin pluriel" }
+            ]
+          }
+        ],
+        "doubles_lettres": [
+          {
+            "id": "q036",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Une ___ (voiture, sound: 'voiture') roule vite. Complète: la ___ette roule.",
+            "reponse": "voiturette"
+          },
+          {
+            "id": "q037",
+            "type": "multiple_choice",
+            "difficulte": 1,
+            "question": "Comment écrit-on correctement ce mot ?",
+            "options": ["adresse", "adrese", "addresse"],
+            "reponse": "adresse"
+          },
+          {
+            "id": "q047",
+            "type": "multiple_choice",
+            "difficulte": 1,
+            "question": "Comment écrit-on ce mot correctement ?",
+            "options": ["professeur", "proffesseur", "profeseur", "professseur"],
+            "reponse": "professeur"
+          },
+          {
+            "id": "q048",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Quelle orthographe est correcte ?",
+            "options": ["appartement", "apartement", "appartemment", "apparttement"],
+            "reponse": "appartement"
+          },
+          {
+            "id": "q049",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Elle porte une ___ (belle) robe rouge",
+            "reponse": "belle"
+          },
+          {
+            "id": "q050",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Quel mot est bien orthographié ?",
+            "options": ["développement", "dévelopement", "développemment", "dévellopement"],
+            "reponse": "développement"
+          }
+        ],
+        "participes_passes": [
+          {
+            "id": "q051",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Elle est ___ (partir) tôt ce matin",
+            "reponse": "partie"
+          },
+          {
+            "id": "q052",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Quelle forme est correcte : 'Ils sont ___ (aller) au cinéma' ?",
+            "options": ["allé", "allés", "allée", "allés"],
+            "reponse": "allés"
+          },
+          {
+            "id": "q053",
+            "type": "fill_blank",
+            "difficulte": 3,
+            "phrase": "Les lettres qu'il a ___ (écrire) sont émouvantes",
+            "reponse": "écrites"
+          },
+          {
+            "id": "q054",
+            "type": "theme_sort",
+            "difficulte": 3,
+            "question": "Classe ces participes passés selon leur accord",
+            "categories": ["Accordé", "Non accordé"],
+            "mots_a_classer": [
+              { "mot": "Les fleurs qu'il a cueillies", "categorie": "Accordé" },
+              { "mot": "Il a mangé une pomme", "categorie": "Non accordé" },
+              { "mot": "Elle est tombée", "categorie": "Accordé" },
+              { "mot": "Nous avons parlé", "categorie": "Non accordé" }
+            ]
+          }
+        ],
+        "pluriels": [
+          {
+            "id": "q055",
+            "type": "fill_blank",
+            "difficulte": 1,
+            "phrase": "Un cheval, des ___ (cheval)",
+            "reponse": "chevaux"
+          },
+          {
+            "id": "q056",
+            "type": "multiple_choice",
+            "difficulte": 1,
+            "question": "Quel est le pluriel de 'journal' ?",
+            "options": ["journals", "journaux", "journales", "journeaux"],
+            "reponse": "journaux"
+          },
+          {
+            "id": "q057",
+            "type": "multiple_choice",
+            "difficulte": 2,
+            "question": "Quel est le pluriel de 'bijou' ?",
+            "options": ["bijous", "bijoux", "bijoues", "bijoutes"],
+            "reponse": "bijoux"
+          },
+          {
+            "id": "q058",
+            "type": "fill_blank",
+            "difficulte": 2,
+            "phrase": "Un vitrail, des ___ (vitrail)",
+            "reponse": "vitraux"
+          }
+        ]
+      }
+    }
+  }
+}
